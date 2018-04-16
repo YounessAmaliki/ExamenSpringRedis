@@ -58,4 +58,9 @@ public class InhaalExamen {
 	public void setReason(String reason) {
 		this.reason = reason;
 	}
+	
+	@Override
+	public String toString() {
+		return String.format(student + "" + exam + "" + "" + reason + ""  + date);
+	}
 }
